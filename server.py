@@ -4,9 +4,9 @@ from aip import AipImageClassify
 from aip import AipOcr
 import base64
 
-APP_ID = '122587751'
-API_KEY = 'jJF0SKU2efqkpz8mBYv4bJVT'
-SECRET_KEY = 'fymQ2ke8sLI5fuHb1d0NH7KO6nsv0WsU'
+APP_ID = ''
+API_KEY = ''
+SECRET_KEY = ''
 
 client_classify = AipImageClassify(APP_ID, API_KEY, SECRET_KEY)
 client_ocr = AipOcr(APP_ID, API_KEY, SECRET_KEY)
